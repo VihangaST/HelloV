@@ -1,12 +1,12 @@
-function Card() {
+function Card({ carouselId }) {
   return (
     <>
       <div className="card" style={{ width: "300px" }}>
-        <div id="carouselExampleIndicators" className="carousel slide">
+        <div id={carouselId} className="carousel slide">
           <div className="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target={`#${carouselId}`}
               data-bs-slide-to="0"
               className="active"
               aria-current="true"
@@ -15,7 +15,7 @@ function Card() {
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleIndicators"
+              data-bs-target={`#${carouselId}`}
               data-bs-slide-to="1"
               aria-label="Slide 2"
               style={{ backgroundColor: "black" }}
@@ -40,7 +40,7 @@ function Card() {
           <button
             className="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target={`#${carouselId}`}
             data-bs-slide="prev"
           >
             <span
@@ -52,7 +52,7 @@ function Card() {
           <button
             className="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleIndicators"
+            data-bs-target={`#${carouselId}`}
             data-bs-slide="next"
           >
             <span

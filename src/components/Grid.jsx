@@ -6,15 +6,13 @@ function Grid() {
     <>
       <div className="container text-center">
         <dv className="row">
-          {cards.map((card) => (
-            <div className="col">
-              <Card key={card} />
+          {cards.map((card, idx) => (
+            <div className="col" key={card}>
+              <Card carouselId={`carousel-${idx}`} />
             </div>
           ))}
         </dv>
       </div>
-
-      {/* <Card /> */}
     </>
   );
 }
