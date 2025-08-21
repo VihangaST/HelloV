@@ -7,7 +7,7 @@ function Card({ carouselId, card }) {
         style={{ width: "300px" }}
       >
         <div id={carouselId} className="carousel slide">
-          <div className="carousel-indicators">
+          {/* <div className="carousel-indicators">
             <button
               type="button"
               data-bs-target={`#${carouselId}`}
@@ -24,7 +24,7 @@ function Card({ carouselId, card }) {
               aria-label="Slide 2"
               style={{ backgroundColor: "black" }}
             ></button>
-          </div>
+          </div> */}
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
@@ -67,13 +67,13 @@ function Card({ carouselId, card }) {
           </button>
         </div>
 
-        {/* <div className="card-body">
-          <h5 className="card-title">{card.name}</h5>
-          <p className="card-text">{card.category}</p>
-         <a href="#" className="btn btn-primary">
+        <div className="card-body">
+          <h6 className="card-title">{card.name}</h6>
+          {/* <p className="card-text">{card.category}</p>
+          <a href="#" className="btn btn-primary">
             Go somewhere
-          </a>
-        </div> */}
+          </a> */}
+        </div>
       </div>
     </>
   );
