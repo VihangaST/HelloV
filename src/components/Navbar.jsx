@@ -26,14 +26,14 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#cards">
-                  Normal Cards
+                <a className="nav-link" href="#birthday">
+                  Birthday
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#mother">
-                  Mother Cards
+                <a className="nav-link" href="#weddingAnniversary">
+                  Wedding Anniversary
                 </a>
               </li>
               <li className="nav-item">

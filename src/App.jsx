@@ -13,44 +13,60 @@ function App() {
     { name: "BD5", images: "B5", category: "New Year" },
     { name: "BD6", images: "T3", category: "Graduation" },
     { name: "BD7", images: "T2", category: "New Year" },
+    { name: "BD8", images: "B6", category: "Graduation" },
   ];
 
   const MotherCards = [
     { name: "BM1", images: "BM1", category: "Birthday" },
     { name: "BM2", images: "BM2", category: "Anniversary" },
+    { name: "BM3", images: "BM3", category: "Graduation" },
+    { name: "BM4", images: "BM4", category: "Graduation" },
   ];
 
   const FatherCards = [
     { name: "BF1", images: "BF1", category: "Birthday" },
     { name: "BF2", images: "BF2", category: "Anniversary" },
+    { name: "BF3", images: "BF3", category: "Anniversary" },
   ];
 
   const LoverCards = [{ name: "BL", images: "BL", category: "Birthday" }];
   const SisterCards = [{ name: "BS1", images: "BS1", category: "Birthday" }];
 
-  const BrotherCards = [{ name: "BB1", images: "BB1", category: "Birthday" }];
+  const BrotherCards = [
+    { name: "BB1", images: "BB1", category: "Birthday" },
+    { name: "BB2", images: "BB2", category: "Birthday" },
+  ];
+
+  const TeacherCards = [{ name: "TR", images: "TR", category: "Retirement" }];
+
+  const WeddingAnniversary = [
+    { name: "WA1", images: "WA1", category: "Retirement" },
+    { name: "WA2", images: "WA2", category: "Retirement" },
+  ];
   return (
     <>
       <Navbar />
 
       <section id="cards">
         <Grid cards={NormalCards} name="Normal" title="Normal Cards" />
-      </section>
-      <section id="mother">
         <Grid cards={MotherCards} name="Mother" title="Mother Cards" />
-      </section>
-      <section id="father">
         <Grid cards={FatherCards} name="Father" title="Father Cards" />
-      </section>
-      <section id="lover">
         <Grid cards={LoverCards} name="Lover" title="Lover Cards" />
-      </section>
-      <section id="sister">
         <Grid cards={SisterCards} name="Sister" title="Sister Cards" />
-      </section>
-      <section id="brother">
         <Grid cards={BrotherCards} name="Brother" title="Brother Cards" />
+        <Grid cards={TeacherCards} name="Teacher" title="Teacher Cards" />
       </section>
+      <section id="weddingAnniversary">
+        <Grid
+          cards={WeddingAnniversary}
+          name="WeddingAnniversary"
+          title="Wedding Anniversary Cards"
+        />
+      </section>
+      <section id="father"></section>
+      <section id="lover"></section>
+      <section id="sister"></section>
+      <section id="brother"></section>
 
       <Footer />
     </>
