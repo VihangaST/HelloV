@@ -1,7 +1,10 @@
 function Card({ carouselId, card }) {
   return (
     <>
-      <div className="card" style={{ width: "300px" }}>
+      <div
+        className="card border border-2 rounded-3"
+        style={{ width: "300px" }}
+      >
         <div id={carouselId} className="carousel slide">
           <div className="carousel-indicators">
             <button
