@@ -7,9 +7,12 @@ function Grid(props) {
     <>
       <h1>{props.title}</h1>
       <div className="container text-center">
-        <div className="row">
+        <div className="row justify-content-center">
           {cardsList.map((card, idx) => (
-            <div className="col p-2 " key={`${props.name}-${idx}`}>
+            <div
+              className="col-12 col-sm-8 col-md-6 col-lg-4 p-2 d-flex justify-content-center"
+              key={`${props.name}-${idx}`}
+            >
               <Card carouselId={`carousel-${props.name}-${idx}`} card={card} />
             </div>
           ))}
