@@ -17,6 +17,11 @@ function App() {
     { name: "BM1", images: "BM1", category: "Birthday" },
     { name: "BM2", images: "BM2", category: "Anniversary" },
   ];
+
+  const FatherCards = [
+    { name: "BF1", images: "BF1", category: "Birthday" },
+    { name: "BF2", images: "BF2", category: "Anniversary" },
+  ];
   return (
     <>
       <Navbar />
@@ -24,8 +29,11 @@ function App() {
       <section id="features">
         <Grid cards={NormalCards} title="Normal Cards" />
       </section>
-      <section id="pricing">
+      <section id="mother">
         <Grid cards={MotherCards} title="Mother Cards" />
+      </section>
+      <section id="father">
+        <Grid cards={FatherCards} title="Father Cards" />
       </section>
 
       <Footer />
