@@ -1,4 +1,5 @@
 function Card({ carouselId, card }) {
+  // alert(carouselId);
   return (
     <>
       <div
