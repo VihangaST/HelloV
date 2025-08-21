@@ -1,4 +1,4 @@
-function Card({ carouselId }) {
+function Card({ carouselId, card }) {
   return (
     <>
       <div className="card" style={{ width: "300px" }}>
@@ -24,7 +24,7 @@ function Card({ carouselId }) {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="src\assets\BD\B1-1.jpg"
+                src={`src/assets/BD/${card.images}-1.jpg`}
                 className="d-block w-100"
                 alt="..."
               />
@@ -64,11 +64,8 @@ function Card({ carouselId }) {
         </div>
 
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
+          <h5 className="card-title">{card.name}</h5>
+          <p className="card-text">{card.category}</p>
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
