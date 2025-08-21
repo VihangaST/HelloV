@@ -47,6 +47,16 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#sister">
+                  Sister Cards
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#brother">
+                  Brother Cards
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
                   Disabled
                 </a>

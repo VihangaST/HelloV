@@ -11,6 +11,8 @@ function App() {
     { name: "BD3", images: "B3", category: "Graduation" },
     { name: "BD4", images: "B4", category: "Wedding" },
     { name: "BD5", images: "B5", category: "New Year" },
+    { name: "BD6", images: "T3", category: "Graduation" },
+    { name: "BD7", images: "T2", category: "New Year" },
   ];
 
   const MotherCards = [
@@ -24,6 +26,9 @@ function App() {
   ];
 
   const LoverCards = [{ name: "BL", images: "BL", category: "Birthday" }];
+  const SisterCards = [{ name: "BS1", images: "BS1", category: "Birthday" }];
+
+  const BrotherCards = [{ name: "BB1", images: "BB1", category: "Birthday" }];
   return (
     <>
       <Navbar />
@@ -39,6 +44,12 @@ function App() {
       </section>
       <section id="lover">
         <Grid cards={LoverCards} name="Lover" title="Lover Cards" />
+      </section>
+      <section id="sister">
+        <Grid cards={SisterCards} name="Sister" title="Sister Cards" />
+      </section>
+      <section id="brother">
+        <Grid cards={BrotherCards} name="Brother" title="Brother Cards" />
       </section>
 
       <Footer />
