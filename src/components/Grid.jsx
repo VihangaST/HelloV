@@ -8,8 +8,8 @@ function Grid(props) {
       <div className="container text-center">
         <div className="row">
           {cardsList.map((card, idx) => (
-            <div className="col p-2" key={idx}>
-              <Card carouselId={`carousel-${idx}`} card={card} />
+            <div className="col p-2" key={`${props.title}-${idx}`}>
+              <Card carouselId={`carousel-${props.title}-${idx}`} card={card} />
             </div>
           ))}
         </div>

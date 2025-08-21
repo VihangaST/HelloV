@@ -22,17 +22,28 @@ function Navbar() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  Home{" "}
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#features">
-                  Features
+                <a className="nav-link" href="#cards">
+                  Normal Cards
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#mother">
+                  Mother Cards
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#pricing">
-                  Pricing
+                <a className="nav-link" href="#father">
+                  Father Cards
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#lover">
+                  Lover Cards
                 </a>
               </li>
               <li className="nav-item">

@@ -22,18 +22,23 @@ function App() {
     { name: "BF1", images: "BF1", category: "Birthday" },
     { name: "BF2", images: "BF2", category: "Anniversary" },
   ];
+
+  const LoverCards = [{ name: "BL", images: "BL", category: "Birthday" }];
   return (
     <>
       <Navbar />
 
-      <section id="features">
-        <Grid cards={NormalCards} title="Normal Cards" />
+      <section id="cards">
+        <Grid cards={NormalCards} name="Normal" title="Normal Cards" />
       </section>
       <section id="mother">
-        <Grid cards={MotherCards} title="Mother Cards" />
+        <Grid cards={MotherCards} name="Mother" title="Mother Cards" />
       </section>
       <section id="father">
-        <Grid cards={FatherCards} title="Father Cards" />
+        <Grid cards={FatherCards} name="Father" title="Father Cards" />
+      </section>
+      <section id="lover">
+        <Grid cards={LoverCards} name="Lover" title="Lover Cards" />
       </section>
 
       <Footer />
