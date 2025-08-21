@@ -1,11 +1,11 @@
 import Card from "./Card";
 function Grid() {
   const cards = [
-    { name: "A", images: "B1", category: "Birthday" },
-    { name: "B", images: "B2", category: "Anniversary" },
-    { name: "C", images: "B3", category: "Graduation" },
-    { name: "D", images: "B4", category: "Wedding" },
-    { name: "E", images: "B5", category: "New Year" },
+    { name: "BD1", images: "B1", category: "Birthday" },
+    { name: "BD2", images: "B2", category: "Anniversary" },
+    { name: "BD3", images: "B3", category: "Graduation" },
+    { name: "BD4", images: "B4", category: "Wedding" },
+    { name: "BD5", images: "B5", category: "New Year" },
   ];
 
   return (

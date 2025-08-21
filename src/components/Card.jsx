@@ -31,9 +31,9 @@ function Card({ carouselId, card }) {
             </div>
             <div className="carousel-item">
               <img
-                src="src\assets\BD\B1-2.jpg"
+                src={`src/assets/BD/${card.images}-2.jpg`}
                 className="d-block w-100"
-                alt="src\assets\BD\B1-2.jpg"
+                alt="..."
               />
             </div>
           </div>
@@ -66,9 +66,9 @@ function Card({ carouselId, card }) {
         <div className="card-body">
           <h5 className="card-title">{card.name}</h5>
           <p className="card-text">{card.category}</p>
-          <a href="#" className="btn btn-primary">
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
-          </a>
+          </a> */}
         </div>
       </div>
     </>
