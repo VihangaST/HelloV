@@ -4,7 +4,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <img style={{ width: "60px" }} src="assets/Logo.jpg" alt="" />
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             HelloV
           </a>
           <button
@@ -36,7 +36,7 @@ function Navbar() {
                   Wedding Anniversary
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#father">
                   Father Cards
                 </a>
@@ -45,8 +45,8 @@ function Navbar() {
                 <a className="nav-link" href="#lover">
                   Lover Cards
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#sister">
                   Sister Cards
                 </a>
@@ -55,7 +55,7 @@ function Navbar() {
                 <a className="nav-link" href="#brother">
                   Brother Cards
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
                   Disabled

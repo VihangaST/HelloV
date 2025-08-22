@@ -69,8 +69,13 @@ function Card({ carouselId, card }) {
 
         <div className="card-body">
           <h6 className="card-title">{card.name}</h6>
-          {/* <p className="card-text">{card.category}</p>
-          <a href="#" className="btn btn-primary">
+          <button className="btn btn-primary btn-sm btn-success m-1">
+            {card.category}
+          </button>
+          <button className="btn btn-primary btn-sm btn-secondary">
+            {card.subCategory}
+          </button>
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
         </div>
