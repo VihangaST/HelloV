@@ -231,6 +231,7 @@ function App() {
             src={`${import.meta.env.BASE_URL}assets/BD/video_1.mp4`}
             autoPlay
             loop
+            muted
           />
         </div>
       </section>
