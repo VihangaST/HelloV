@@ -28,14 +28,14 @@ function Card({ carouselId, card }) {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={`/public/assets/BD/${card.images}-1.jpg`}
+                src={`/assets/BD/${card.images}-1.jpg`}
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src={`public/assets/BD/${card.images}-2.jpg`}
+                src={`/assets/BD/${card.images}-2.jpg`}
                 className="d-block w-100"
                 alt="..."
               />
