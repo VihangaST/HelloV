@@ -5,7 +5,7 @@ export default function Video() {
         <video
           className="background-video"
           style={{ width: "100%", height: "400px", objectFit: "cover" }}
-          src="public/assets/BD/video_1.mp4"
+          src="/assets/BD/video_1.mp4"
           autoPlay
           loop
           muted
