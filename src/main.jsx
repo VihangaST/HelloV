@@ -7,8 +7,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar.jsx";
 
+// Add these imports:
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Video from "./Pages/Video.jsx"; // Make sure this file exists
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/Video" element={<Video />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </StrictMode>
 );

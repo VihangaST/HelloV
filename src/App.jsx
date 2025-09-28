@@ -1,7 +1,5 @@
 import Settings from "./Pages/Settings";
 import Grid from "./components/Grid";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -198,8 +196,6 @@ function App() {
   ];
   return (
     <>
-      <Navbar />
-
       {/* <section id="birthday">
         <Grid cards={NormalCards} name="Normal" title="Normal Cards" />
         <Grid cards={MotherCards} name="Mother" title="Mother Cards" />
@@ -240,8 +236,6 @@ function App() {
           />
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
