@@ -219,9 +219,9 @@ function App() {
         />
       </section> */}
 
-      <section>
+      {/* <section>
         <Grid cards={cards} name="cards" />
-      </section>
+      </section> */}
 
       <section>
         <div className="p-2 m-2">
