@@ -229,7 +229,7 @@ function App() {
             className="background-video"
             style={{ width: "100%", height: "900px", objectFit: "cover" }}
             src={`${import.meta.env.BASE_URL}assets/BD/video_1.mp4`}
-            autoPlay
+            controls
             loop
           />
         </div>
