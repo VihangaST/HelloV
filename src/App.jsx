@@ -191,7 +191,6 @@ function App() {
       images: "WI3",
       category: "Wedding",
       subCategory: "Invitation",
-      category: "Wedding",
     },
   ];
   return (
@@ -224,7 +223,7 @@ function App() {
         <Grid cards={cards} name="cards" />
       </section>
 
-      <section>
+      {/* <section>
         <div className="p-2 m-2">
           <video
             className="background-video"
@@ -235,7 +234,7 @@ function App() {
             muted
           />
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
