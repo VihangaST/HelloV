@@ -2,7 +2,8 @@ import Settings from "./Pages/Settings";
 import Grid from "./components/Grid";
 import "./App.css";
 // import ARCard from "./components/ARCard";
-import ARViewer from "./components/ARViewer";
+// import ARViewer from "./components/ARViewer";
+import MindARViewer from "./components/MindARViewer";
 
 function App() {
   // const NormalCards = [
@@ -238,11 +239,15 @@ function App() {
         {/* <div>
           <ARCard />
         </div> */}
-        <div>
+        {/* <div>
           <h1 style={{ textAlign: "center", marginTop: "20px" }}>
             🎉 Happy Birthday AR 🎉
           </h1>
           <ARViewer />
+        </div> */}
+        <div>
+          <h2 style={{ textAlign: "center" }}>🎂 Birthday Card AR 🎂</h2>
+          <MindARViewer />
         </div>
       </section>
     </>
