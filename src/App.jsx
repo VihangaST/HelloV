@@ -1,6 +1,8 @@
 import Settings from "./Pages/Settings";
 import Grid from "./components/Grid";
 import "./App.css";
+// import ARCard from "./components/ARCard";
+import ARViewer from "./components/ARViewer";
 
 function App() {
   // const NormalCards = [
@@ -232,6 +234,15 @@ function App() {
             controls
             loop
           />
+        </div>
+        {/* <div>
+          <ARCard />
+        </div> */}
+        <div>
+          <h1 style={{ textAlign: "center", marginTop: "20px" }}>
+            🎉 Happy Birthday AR 🎉
+          </h1>
+          <ARViewer />
         </div>
       </section>
     </>
