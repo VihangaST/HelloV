@@ -19,6 +19,11 @@ const ARViewer = () => {
           maxWidth: "600px",
           borderRadius: "20px",
         }}
+        onError={(e) =>
+          alert(
+            "AR mode not available on this device. You can still view the 3D model!"
+          )
+        }
       ></model-viewer>
     </div>
   );
